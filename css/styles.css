@@ -4967,3 +4967,62 @@ html.no-csstransitions .s-hero__content {
         font-size: 1.4rem;
     }
 }
+
+/* Location Section Styling */
+.s-location {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+
+.s-location .column {
+    margin-bottom: 30px;
+}
+
+.s-location .h6 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.s-location .map-container {
+    margin: 20px 0;
+}
+
+.s-location .contact-form {
+    text-align: left;
+    max-width: 400px;
+    margin: 0 auto; /* Center the form */
+}
+
+.s-location .form-field {
+    margin-bottom: 20px;
+}
+
+.s-location .form-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.s-location .btn--primary {
+    background-color: #d9083c; /* Update this to match the "Get in Touch" button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block; /* Make the button block level to center it */
+    width: 100%;
+    text-align: center;
+}
+
+.s-location .btn--primary:hover {
+    background-color: #fff; /* Update this to match the hover state of the "Get in Touch" button */
+}
+
+/* Responsive Styling */
+@media only screen and (max-width: 767px) {
+    .s-location .column {
+        margin-bottom: 20px;
+    }
+}
