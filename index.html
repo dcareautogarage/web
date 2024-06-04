@@ -572,21 +572,29 @@
             </div>
         </div>
         <!-- Contact Form -->
+
+        
         <div class="column large-6 medium-12" data-aos="fade-up">
             <h3 class="h6">Request a Call Back</h3>
-            <form action="#" method="post" class="contact-form">
-                <div class="form-field">
+<form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value=" 293e8315-15ef-4abf-bb39-e87a36d878a3">
+    <div class="form-field">
                     <input type="text" id="name" name="name" placeholder="Your Name">
                 </div>
                 <div class="form-field">
                     <input type="text" id="phone" name="phone" placeholder="Your Phone Number">
                 </div>
                 <div class="form-field">
+                        <div class="h-captcha" data-captcha="true"></div>
                     <button type="submit" class="btn btn--primary">Request a Call Back</button>
                 </div>
             </form>
+            <script src="https://web3forms.com/client/script.js" async defer></script>
         </div>
     </div>
+
+
+    
 </section>
 
 
