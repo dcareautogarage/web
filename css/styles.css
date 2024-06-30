@@ -5097,3 +5097,11 @@ h1, h2, h3, h4, h5, h6 {
 .ss-go-top a {
     display: none;
 }
+
+.whatsapp-text {
+    font-size: .7em; /* Adjust the font size as needed */
+    margin: 0;
+    line-height: 60px; /* Vertical center alignment */
+}
+
+
