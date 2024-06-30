@@ -1621,8 +1621,9 @@ a:hover, a:active {
     --text-xs        = (12.50px)
  * -------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    font-family: var(--font-2);
-    font-weight: 500;
+    /* -family: var(--font-2);*/
+	font-family: "Black Ops One";
+    font-weight: 100;
     font-style: normal;
     color: var(--color-text-dark);
     -webkit-font-variant-ligatures: common-ligatures;
@@ -1683,7 +1684,7 @@ h6, .h6 {
     font-weight: 600;
     line-height: var(--vspace-0_75);
     text-transform: uppercase;
-    letter-spacing: .22em;
+	font-size:larger;
 }
 
 .lead, .attention-getter {
@@ -2910,7 +2911,7 @@ input::-moz-focus-inner {
     font-size: calc(var(--text-size) * 10);
     line-height: 1;
     letter-spacing: -0.02em;
-    color: var(--color-text);
+    color: transparent;
     opacity: .1;
 }
 
@@ -2921,7 +2922,6 @@ input::-moz-focus-inner {
     padding-bottom: 2em;
     margin-top: 0;
     position: absolute;
-    left: 1em;
     bottom: 0;
 }
 
@@ -2933,7 +2933,7 @@ input::-moz-focus-inner {
 }
 
 .item-title {
-    font-family: var(--font-2);
+    /*font-family: var(--font-2);*/
     font-weight: 500;
     font-size: var(--text-lg);
     line-height: var(--vspace-1_25);
@@ -3134,7 +3134,7 @@ input::-moz-focus-inner {
 
 .s-header__logo img {
     width: 68px;
-    height: 10px;
+    /*height: 10px;*/
     margin-bottom: 0;
 }
 
@@ -3148,7 +3148,7 @@ input::-moz-focus-inner {
 
 .s-header__nav {
     list-style: none;
-    font-family: var(--font-2);
+    font-family: "Black Ops One", system-ui;
     font-weight: 500;
     font-size: 1rem;
     line-height: 6rem;
@@ -3537,7 +3537,7 @@ input::-moz-focus-inner {
 
 .s-hero__content h1 {
     font-size: 15rem;
-    font-weight: 600;
+    font-weight: 100;
     letter-spacing: -.04em;
     line-height: 1;
     color: var(--color-1);
@@ -3546,7 +3546,7 @@ input::-moz-focus-inner {
 }
 
 .s-hero__content h1::before {
-    display: block;
+    display: none;
     content: "";
     height: 10rem;
     width: 20rem;
@@ -3567,13 +3567,13 @@ input::-moz-focus-inner {
     font-size: 3.6rem;
     line-height: 1.444;
     color: var(--color-white);
-    padding-left: 3.6em;
+    padding-left: .35em; /*welcome aligned*/
     position: relative;
 }
 
 .s-hero__content-about::before {
     content: "";
-    display: block;
+    display: none; /* line removed */
     height: 1px;
     width: 2.4em;
     background-color: var(--color-border);
@@ -4019,7 +4019,7 @@ html.no-csstransitions .s-hero__content {
 
 .s-about::before {
     content: "";
-    display: block;
+    display: none;
     width: 28rem;
     height: 17.6rem;
     background-image: url(../images/dots.svg);
@@ -4041,7 +4041,7 @@ html.no-csstransitions .s-hero__content {
     content: "";
     display: block;
     width: 1px;
-    background-color: var(--color-1-darker);
+    background-color: #f7921c;
     position: absolute;
     right: calc(50% + 1px);
     top: 0;
@@ -4474,7 +4474,7 @@ html.no-csstransitions .s-hero__content {
 .s-clients {
     background-color: #000404;
     padding-top: calc(6 * var(--space));
-    padding-bottom: var(--vspace-4);
+    /*padding-bottom: var(--vspace-4);*/
     position: relative;
 }
 
@@ -5025,4 +5025,52 @@ html.no-csstransitions .s-hero__content {
     .s-location .column {
         margin-bottom: 20px;
     }
+}
+
+
+
+.row.block-large-1-2.block-tab-full.s-about__process.item-list.whychoose {
+    margin-top: 0em;
+}
+
+
+section#portfolio\ whychoose {
+    padding-top: 0em;
+}
+
+
+.row.s-porfolio__top.recentworks {
+    padding-top: calc(2* var(--space));
+}
+
+
+p {
+    font-family: 'Exo 2', sans-serif !important;
+}
+
+
+.btn, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    font-family: 'Exo 2', sans-serif !important;
+	
+}
+	
+ #location .section-title,
+#location .row > .column {
+        margin-bottom: 0; /* Remove bottom margin */
+        padding-bottom: 0; /* Remove bottom padding */
+    }
+
+    #location .row.s-porfolio__top {
+        margin-bottom: 0; /* Remove bottom margin */
+        padding-bottom: 0; /* Remove bottom padding */
+    }
+	
+	    #clients .testimonials {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+	
+	
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100 !important;
 }
