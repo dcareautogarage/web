@@ -116,7 +116,7 @@
     /* theme color variations
      */
     --color-1-lighter: hsla(345, 93%, 64%, 1);
-    --color-1-light  : hsla(345, 93%, 54%, 1);
+    --color-1-light  : #f7921c;
     --color-1-dark   : hsla(345, 93%, 34%, 1);
     --color-1-darker : hsla(345, 93%, 24%, 1);
     --color-2-lighter: hsla(4, 79%, 83%, 1);
@@ -5102,6 +5102,23 @@ h1, h2, h3, h4, h5, h6 {
     font-size: .7em; /* Adjust the font size as needed */
     margin: 0;
     line-height: 60px; /* Vertical center alignment */
+}
+
+
+.service-icon {
+    margin-bottom: .8em;
+}
+
+
+section#about {
+    --vspace-2: 0em !important;
+}
+
+section#portfolio\ whychoose {
+    --vspace-2: 0em !important;
+
+.row.s-porfolio__top.recentworks {
+    --vspace-2: 0em !important;
 }
 
 
