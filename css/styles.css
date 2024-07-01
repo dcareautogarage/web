@@ -2,11 +2,9 @@
     margin-bottom: .8em !important;
 }
 
-
 .row.s-porfolio__top.recentworks {
   display: none !important;
 }
-
 
 .s-hero__video-link {
   display: none !important;
@@ -17,10 +15,14 @@
   font-family: 'Exo 2', sans-serif !important;
 }
 
-.section-title h3 {
+ .section-title h3 {
     padding-bottom: 0em !important;
 }
 
+.s-location {
+    padding: 0em !important;
+
+}
 
 .s-location {
     padding: 0em !important;
