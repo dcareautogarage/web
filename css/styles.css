@@ -3,7 +3,9 @@
 }
 
 
-
+.row.s-porfolio__top.recentworks {
+  display: none;
+}
 
 /* =================================================================== 
  * Flare Main Stylesheet
