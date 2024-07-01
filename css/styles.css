@@ -103,6 +103,10 @@
 /* ------------------------------------------------------------------- 
  * ## colors
  * ------------------------------------------------------------------- */
+ 
+
+
+
 :root {
 
     /* color-1(#d9083c)
@@ -5075,40 +5079,44 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100 !important;
 }
 
-.float{
-	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:40px;
-	right:40px;
-	background-color:#25d366;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-  font-size:30px;
-	box-shadow: 2px 2px 3px #999;
-  z-index:100;
-}
 
-.my-float{
-	margin-top:16px;
-}
 
-/*.ss-go-top a {
-    display: none;
-}*/
 
-.whatsapp-text {
-    font-size: .7em; /* Adjust the font size as needed */
-    margin: 0;
-    line-height: 60px; /* Vertical center alignment */
-}
+
+
+/* .float{ */
+	/* position:fixed; */
+	/* width:60px; */
+	/* height:60px; */
+	/* bottom:40px; */
+	/* right:40px; */
+	/* background-color:#25d366; */
+	/* color:#FFF; */
+	/* border-radius:50px; */
+	/* text-align:center; */
+  /* font-size:30px; */
+	/* box-shadow: 2px 2px 3px #999; */
+  /* z-index:100; */
+/* } */
+
+/* .my-float{ */
+	/* margin-top:16px; */
+/* } */
+
+/* /*.ss-go-top a { */
+    /* display: none; */
+/* }*/ */
+
+/* .whatsapp-text { */
+    /* font-size: .7em; /* Adjust the font size as needed */ */
+    /* margin: 0; */
+    /* line-height: 60px; /* Vertical center alignment */ */
+/* } */
 
 
 .service-icon {
     margin-bottom: .8em;
 }
-
 
 section#about {
     --vspace-2: 0em !important;
@@ -5116,14 +5124,17 @@ section#about {
 
 section#portfolio\ whychoose {
     --vspace-2: 0em !important;
-
+}
 .row.s-porfolio__top.recentworks {
     --vspace-2: 0em !important;
 }
 
-.ss-go-top.link-is-visible {
+/* .ss-go-top.link-is-visible { */
 
-    display: none !important;
+    /* display: none !important; */
+/* } */
+
+ ul.s-footer__list {
+    font-family: 'Exo 2', sans-serif !important;
 }
-
 
