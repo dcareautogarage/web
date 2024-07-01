@@ -5121,5 +5121,8 @@ section#portfolio\ whychoose {
     --vspace-2: 0em !important;
 }
 
+.ss-go-top.link-is-visible {
 
+    display: none !important;
+}
 
