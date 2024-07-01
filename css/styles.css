@@ -17,7 +17,15 @@
   font-family: 'Exo 2', sans-serif !important;
 }
 
+.section-title h3 {
+    padding-bottom: 0em !important;
+}
 
+
+.s-location {
+    padding: 0em !important;
+
+}
 
 /* =================================================================== 
  * Flare Main Stylesheet
