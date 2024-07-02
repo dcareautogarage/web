@@ -5200,7 +5200,7 @@ section#portfolio\ whychoose {
   /* -webkit-border-radius: 8px; */
   /* -moz-border-radius: 8px; */
   /* border-radius: 8pxpx; */
-  /* border: 1px solid #fff; */
+  border: 1px solid black;
   color: #fff;
   font-size: 16px;
   background: #f7921c;
