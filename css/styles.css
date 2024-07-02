@@ -5169,3 +5169,47 @@ section#portfolio\ whychoose {
     font-family: 'Exo 2', sans-serif !important;
 }
 
+.row .row {
+    margin-left: 0em !important;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .row .row {
+      margin-left: 0em !important;
+    }
+}
+
+
+
+
+/* test */
+
+
+#sticky-button {
+  position: fixed;
+  left: 0px !important;
+  padding-left:1em;
+  bottom: 40px;
+  width: 200px !important;
+  height: 25px !important;
+  z-index: 99999;
+  font-family: 'Exo 2', sans-serif !important;
+}
+#sticky-button a {
+  /* -webkit-border-radius: 8px; */
+  /* -moz-border-radius: 8px; */
+  /* border-radius: 8pxpx; */
+  /* border: 1px solid #fff; */
+  color: #fff;
+  font-size: 16px;
+  background: #f7921c;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+#sticky-button a:hover {
+  opacity: 0.7;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
