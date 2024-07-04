@@ -29,6 +29,13 @@
 
 }
 
+.grecaptcha-badge { visibility: hidden; }
+
+p#google-policy {
+    font-size: .7em;
+}
+
+
 /* =================================================================== 
  * Flare Main Stylesheet
  * Template Ver. 1.0.0
