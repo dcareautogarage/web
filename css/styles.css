@@ -32,7 +32,7 @@
 .grecaptcha-badge { visibility: hidden; }
 
 p#google-policy {
-    font-size: .7em;
+    font-size: .7em !important;
 }
 
 
