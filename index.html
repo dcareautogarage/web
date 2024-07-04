@@ -694,6 +694,7 @@ Situated in Kerala, our workshop is easily accessible, ensuring convenience for 
                     <button type="submit" class="btn btn--primary">ENQUIRE NOW</button>
                 </div>
     <input type="hidden" name="redirect" value="https://www.dcareautogarage.com/thank-you">
+	<input type="hidden" name="recaptcha_response" id="recaptchaResponse">
             </form>
 			
 			
@@ -841,6 +842,22 @@ Situated in Kerala, our workshop is easily accessible, ensuring convenience for 
 
 
 <!-- <div id="sticky-button"><a href="tel:+919074565855">Call Us</a></div> -->
+
+
+<!-- Recaptcha v3 -->
+
+<script src="https://www.google.com/recaptcha/api.js?render=6LcpkQgqAAAAAAENht4uLd7QkJLAcy4JzXyZklsZ"></script>
+<script>
+    grecaptcha.ready(function () {
+        grecaptcha.execute('6LcpkQgqAAAAAAENht4uLd7QkJLAcy4JzXyZklsZ', {
+                action: 'contact'
+            })
+            .then(function (token) {
+                recaptchaResponse.value = token;
+            });
+    });
+    
+</script>
 
 </body>
 
